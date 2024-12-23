@@ -1,0 +1,102 @@
+.footerOne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 490px;
+    padding: 30px;
+    .foot-box{
+        display: flex;
+        flex-wrap: wrap;
+        .text-boxs-foot{
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            .text-box-foot{
+                width: 285px;
+                h4{
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: #001D38;
+                    text-transform: capitalize;
+                    margin-bottom: 30px;
+                }
+                ul{
+                    li{
+                        font-size: 14px;
+                        line-height: 42px;
+                        a{
+                            color: #596672;
+                            font-weight: 400;
+                            transition: .4s;
+                            &:hover{
+                                color: #FF3414;
+                            }
+                        }
+                    }
+                }
+            }
+            .textboxfoot{
+                width: 190px;
+            }   
+        }
+        .inp-foot-box{
+            width: 350px;
+            h3{
+                font-size: 18px;
+                font-weight: 400;
+                color: #001D38;
+                text-transform: capitalize;
+                margin-bottom: 40px;
+            }
+            form{
+                width: 100%;
+                position: relative;
+                margin-bottom: 30px;
+                input{
+                    height: 50px;
+                    background: #fff;
+                    padding-left: 20px;
+                    font-size: 15px;
+                    color: #000;
+                    border: 1px solid #596672;
+                    border-radius: 30px;
+                    width: 100%;
+                }
+                button{
+                    position: absolute;
+                    height: 40px;
+                    border: none;
+                    color: #fff;
+                    background: #FF3414;
+                    padding: 0 22px;
+                    cursor: pointer;
+                    border-radius: 30px;
+                    top: 5px;
+                    right: 5px;
+                    font-size: 13px;
+                    font-weight: 500;
+                }
+            }
+            p{
+                font-size: 13px;
+                color: #596672;
+                line-height: 26px;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .footerOne{
+        height: auto;
+    }
+    .footerOne .foot-box .text-boxs-foot {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .footerOne .foot-box .inp-foot-box{
+        width: 100%;
+    }
+}

@@ -1,0 +1,80 @@
+.SectionNine{
+    background-color: #F5FBFF;
+    height: 315px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    .sec-nine-box{
+        display: flex;
+        gap: 30px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 80%;
+        .left-box{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            .icone-boxs{
+                display: flex;
+                gap: 10px;
+                .icone{
+                    width: 38px;
+                    height: 38px;
+                    border-radius: 50%;
+                    background-color: #3B5797;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    font-size: 21px;
+                }
+                .icone-gogle{
+                    background-color: #DB4337;
+                }
+                .icone-twit{
+                    background-color: #00ACED;
+                }
+                .icone-youtub{
+                    background-color: #BB0000;
+                }
+            }
+        }
+        .right-box{
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            .locadion-box{
+                width: 205px;
+                .img-box{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    margin-bottom: 15px;
+                    h3{
+                        font-size: 22px;
+                        color: #001D38;
+                        font-weight: 400;
+                        
+                    }
+                }                
+            }
+            p{
+                color: #596672;
+                font-size: 14px;
+                line-height: 28px;
+                font-weight: 300;
+                margin-bottom: 13px;
+            }
+        }
+    }
+}
+
+@media (max-width: 750px) {
+    .SectionNine{
+        height: auto;
+    }
+    .SectionNine .sec-nine-box .right-box{
+        justify-content: center;
+    }
+}

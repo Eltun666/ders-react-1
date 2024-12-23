@@ -1,0 +1,20 @@
+.FootTwo{
+    width: 70%;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgba(128, 128, 128, 0.503);
+    margin: 0 auto;
+    text-align: center;
+    p{
+        
+        font-size: 15px;
+        color: #596672;
+        margin-bottom: 0;
+        font-weight: 500;
+        a{
+            color: #FF3414;
+        } 
+    }
+}

@@ -1,0 +1,48 @@
+.SectionSix{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    .boxxs{
+        width: 70%;
+        background-image: url("https://preview.colorlib.com/theme/logistico/img/about/0ffcan.png.webp");
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 228px;
+        overflow: hidden;
+        .box{
+            width: 200px;
+            padding: 20px;
+            p{
+                color: #FF3414;
+                font-weight: 500;
+                font-size: 46px;
+                margin-bottom: 5px;
+            }
+            span{
+                color: #596672;
+                font-size: 16px;
+                font-weight: 400;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .SectionSix{
+        margin-top: 30px !important;
+        height: auto !important;
+    }
+    .boxxs{
+        height: auto !important;
+    }  
+}
+
+@media (max-width: 600px) {
+    .SectionSix .boxxs .box p{
+        font-size: 20px;
+    }
+}

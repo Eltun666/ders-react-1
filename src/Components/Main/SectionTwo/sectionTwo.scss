@@ -1,0 +1,51 @@
+.sectionTwo{
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .boxs{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        width: 68%;
+        flex-wrap: wrap;
+        .box{
+            width: 275px;
+            height: 220px;
+            h3{
+                font-size: 22px;
+                font-weight: 500;
+                color: #001D38;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                transition: 0.3s;
+            }
+            &:hover{
+                h3{
+                    color: #FF3414;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 992px) {
+    .sectionTwo{
+        padding: 30px !important;
+        margin: 30px 0 !important;
+        height: auto !important;
+    }
+    
+}
+
+@media (max-width: 808px) {
+    .boxs{
+        gap: 30px !important;
+    }
+    .box{
+        text-align: center !important;
+        overflow: hidden !important;
+        margin: 0 auto !important;
+    }    
+}
